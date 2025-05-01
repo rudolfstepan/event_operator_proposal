@@ -34,6 +34,16 @@ Handled!
 Weak handled!
 ```
 
+## A working example using legacy C#:
+I’ve implemented the core idea of a weak event handler pattern in a production-ready form here:
+```link
+🔗 https://github.com/rudolfstepan/event-driven-framework/blob/master/src/EventDriven.Core/EventBus/WeakEventBase.cs on GitHub
+```
+
+This solution works, but it’s verbose and needs boilerplate logic that could be elegantly handled at the language level with a *= operator.
+
+My proposal is therefore not just theoretical – it builds on real-world experience, and this code demonstrates both the need and the feasibility.
+
 ## Contributing
 
 Feel free to open issues or submit pull requests. Suggestions and feedback are highly welcome!
